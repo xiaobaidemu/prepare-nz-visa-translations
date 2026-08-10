@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>English Translation</title>
+  <style>
+    @page { size: 182mm 257.4mm; margin: 0; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #fff; color: #16252c; }
+    body { font-family: Arial, Helvetica, sans-serif; }
+    .page {
+      position: relative;
+      width: 182mm;
+      height: 257.4mm;
+      overflow: hidden;
+      background: #fff;
+    }
+    .translation-label {
+      position: absolute;
+      top: 7mm;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 8pt;
+      font-weight: 700;
+      letter-spacing: .08em;
+    }
+    .document {
+      position: absolute;
+      inset: 18mm 14mm 14mm;
+      border: .35mm solid #4b626b;
+      padding: 8mm;
+    }
+    h1 { margin: 0 0 7mm; text-align: center; font: 700 15pt Georgia, serif; }
+    table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+    th, td {
+      border: .25mm solid #61757c;
+      padding: 2mm 2.5mm;
+      vertical-align: middle;
+      font-size: 9pt;
+      line-height: 1.3;
+    }
+    th { width: 34%; background: #e9f3f6; text-align: left; font-weight: 700; }
+    .blank { min-height: 5mm; }
+    .seal {
+      display: grid;
+      place-items: center;
+      width: 28mm;
+      height: 28mm;
+      border: .35mm solid #b84052;
+      border-radius: 50%;
+      color: #b84052;
+      text-align: center;
+      font-size: 6.5pt;
+      line-height: 1.15;
+    }
+  </style>
+</head>
+<body>
+  <section class="page">
+    <div class="translation-label">ENGLISH TRANSLATION</div>
+    <main class="document">
+      <h1>DOCUMENT TITLE</h1>
+      <table aria-label="English reconstruction">
+        <tr><th>Field</th><td>Translated value</td></tr>
+        <tr><th>Blank source field</th><td class="blank"></td></tr>
+      </table>
+    </main>
+  </section>
+</body>
+</html>

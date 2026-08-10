@@ -1,0 +1,4 @@
+interface:
+  display_name: "制作新西兰签证英文翻译件"
+  short_description: "按原件版式重建可提交的新西兰签证英文译本"
+  default_prompt: "请使用 $prepare-nz-visa-translations，将这份中文材料重建为清晰、可提交并附译者信息的独立英文 PDF。"
